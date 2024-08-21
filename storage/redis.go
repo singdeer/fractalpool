@@ -2,12 +2,12 @@ package storage
 
 import (
 	"fmt"
+	. "github.com/singdeer/fractalpool/util"
+	"gopkg.in/redis.v3"
 	"math/big"
 	"strconv"
 	"strings"
 	"time"
-
-	. "github.com/singdeer/fractalpool/util"
 )
 
 type Config struct {
